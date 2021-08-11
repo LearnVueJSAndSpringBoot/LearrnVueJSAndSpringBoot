@@ -1,0 +1,73 @@
+Cấu trúc thư mục:
++ src: source code
+  + main.js => file gốc
+  + App.vue => Component gốc
+  + assets: hình ảnh, font	
+  + components => chứa các component con	
+
+Chung html, css, js vào 1 file
+
++ Component:
+	+ 3 thành phần:
+		- Template: html => hiển thị
+		- Script: js => xử lý
+		- Style: css => làm đẹp
+			+ Hỗ trợ scss
+			+ scoped tyle: style dành riêng cho Component
+
++ Tạo component:
+	+ Tạo file .vue
+	+ Import
+	+ Khai báo
++ Root element:
+	+ Bat buoc (chỉ dùng 1 div trên template)
+
++ Two ways binding: 
+	+ Bide dữ liệu 2 chiều
+	(hàm data luôn return về một dữ liệu object)
+	+ Phụ thuộc vào kiểu của element
++ Lifecycle: vòng đời của component trong vue	
++ Binding: Đẩy dữ liệu từ phía dưới lên trên
+	+ Value {{ }} trên templatef
+	+ Property binding: 
+	+ v-bind:[ten thuoc tinh]= "bien"
+		+ Viet tat: dau 2 cham - tự hiểu là v-bind
+	+ Style and class binding:
+		:class - truyen vao theo object
++ Model:
+	+ Liên kết element với property: có thể là string, object truyền vào, array
++ Event handling:
+	+ Bắt sự kiện các element
+	+ v-on:[tên sự kiện]="asadfsdvc()"
+		+ Viết tắt v-on: là @
+	+ Prevent default event:
+		- Hủy bỏ event mặc định của element
++ ref:
+	+ Ánh sắc đến chính element
+
+Conditional rendering: 
+	+ v-show: Ẩn/Hiện một element theo điều kiện, theo style
+	+ v-hide: ngược lại v-show
+	+ v-if: Giống v-show là Ẩn/Hiện 1 element theo điều kiện, mất đi luôn
+	+ v-else:
+ 
+List rendering:	
+	+ v-for: 
+	+ key: phân biệt giữa các element trong list
+
+methods:
+	+ Hàm của vue object
+
+watch:
+	+ Theo dõi sự thay đổi của data
+
+hooks:
+	+ mounted: chạy đầu tiên khi gắn lên HTML (thường gọi api,...) 
+
+Props: 
+	+ Dữ liệu đẩy từ component cha sang component con
+	+ Dùng mảng tên các props
+Props giong nhu data
+
+filter: biến đổi dữ liệu trc khi render
+	
