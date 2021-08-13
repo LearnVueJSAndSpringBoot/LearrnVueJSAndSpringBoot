@@ -16,3 +16,4 @@ beforeDestroy - được gọi ngay trước khi vue instance được destroy.
 destroyed - được gọi khi vue instance đã được destroy.
 
 - Bind data: {{ avariable }}
+
