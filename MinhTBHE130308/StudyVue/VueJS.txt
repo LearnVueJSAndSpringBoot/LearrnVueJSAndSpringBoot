@@ -17,3 +17,25 @@ destroyed - được gọi khi vue instance đã được destroy.
 
 - Bind data: {{ avariable }}
 
+<tag v-html="data"></tag>
+có thể bind dữ liệu vào trong các tag 
+html nhưng làm thế có thể xảy ra lỗi xss
+
+Attributes: <tag v-bind:attributeName="data"></tag>
+
+truyền biến vào hàm:{{avarable | function}}
+
+v-bind = :
+v-on = @
+
+computed giống với method đều chứa hàm xử lý
+
+-Nhưng computed sẽ khác với methods ở chỗ computed được lưu vào cache và 
+computed sẽ chỉ được thay đổi khi dữ liệu bên trong nó thay đổi.
+
+- Watcher trong Vue.js đúng như nghĩa của nó  có nghĩa là theo dõi, nó có nhiệm vụ theo dõi sự thay đổi của dữ liệu và thực thi hành động kèm theo.
+
+Cú pháp: Để khai báo watcher trong vue.js thì các bạn cần phải tuân thủ các nguyên tắc sau:
+
+tên của watcher phải trùng với tên của data cần theo dõi.
+Và các watcher phải được đặt trong watch scope.
