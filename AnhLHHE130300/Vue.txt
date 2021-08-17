@@ -1,3 +1,6 @@
+chạy đầu tiên: git config --global core.autocrlf false
+
+
 Cấu trúc thư mục:
 + src: source code
   + main.js => file gốc
