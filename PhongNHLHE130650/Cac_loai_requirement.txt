@@ -1,0 +1,7 @@
+1.Business requirement.
+
+2.Stakeholeder Requirement.
+
+3.Solution Requirement.
+
+4.Transition requirements.
