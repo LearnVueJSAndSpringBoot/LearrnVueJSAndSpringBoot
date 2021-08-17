@@ -1,0 +1,25 @@
+http://libol.fpt.edu.vn/ds/?fbclid=IwAR2pWtomOz6dLea5PspVQQ2p6uqbBSW_dU5ASqTiu3CT48SnN-QTkQ40tIU
+
+* Bước 1: Phân tích và lên kế hoạch cho quy trình
+Bước phân tích và lên kế hoạch là bước quan trọng đầu tiên để tìm hiểu, phân mục đích, giới hạn và thời gian thực hiện cần thiết. Làm rõ các vấn đề liên quan đến tài chính, nhân sự và rủi ro cho dự án.
+Mục tiêu của bước này cần đạt được các yêu sau:
+Cần làm gì?
+Cần những gì?
+Làm thế nào?
+Khi nào hoàn thành?
+* Bước 2: Phân tích yêu cầu, mục tiêu của quy trình
+Ở bước này chúng ta sẽ tìm hiểu và phân tích các ràng buộc trong quy trình nghiệp vụ.
+Mục tiêu của bước này để xác định các yếu tố sau:
+Đối tượng của dự án
+Tầm nhìn dự án
+Các chức năng cần có
+* Bước 3: Thiết kế Style Guide cho hệ thống
+Sau khi chốt được các chức năng của khách hàng từ bước “Phân tích yêu cầu”, việc kế tiếp cần làm chính là lên khung sườn cho dự án (khung về giao diện, kiến trúc hệ thống). Cần một giao diện hoàn chỉnh(có thể giả lập thao tác để chuyển màn hình). Nên có một quy tắc về giao diện (Style Guide) để thống nhất toàn sản phẩm.
+* Bước 4: Bắt tay vào xây dựng và phát triển sản phẩm 
+Từ bước 3 ta có được danh sách chức năng và thiết kế. Kế tiếp là bắt tay vào xây dựng phát triển sản phẩm theo tiến độ đã đề ra
+* Bước 5: Kiểm thử các chức năng trong quy trình
+Mục đích của bước 5 là để kiểm tra tính chính xác của từng chức năng, có hoạt động, sao cho đúng với đặc tả và sửa lỗi. 
+* Bước 6: Triển khai lên server cho khách hoặc công bố trên App
+Kết thúc bước 5 kiểm tra các chức năng và hoàn thiện, phần mềm sẽ được đóng gói để triển khai lên server của khách hàng.
+* Bước 7: Bảo trì, thêm sửa chức năng phần mềm
+Sau khi hoàn tất bước triển khai phần mềm thì trong quá trình đưa vào sử dụng khách hàng sẽ yêu cầu phải sửa một số lỗi. Điển hình là việc thêm thắt bổ sung các chức năng, hoặc chỉnh sửa lại bất kỳ một chức năng hiện tại.
